@@ -22,8 +22,8 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            // const url = "https://deploy-auth-mern-app-api-mocha.vercel.app/products";
-            const url = "http://localhost:8082/products";
+            const url = "https://deploy-auth-mern-app-api-mocha.vercel.app/products";
+            // const url = "http://localhost:8082/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
